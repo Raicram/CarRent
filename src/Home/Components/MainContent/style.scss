@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+
+$light: #eaeaea;
+$green: #36d643;
+$dark: #595959;
+
+.wrapper{
+  width: 100%;
+  max-height: 70vh;
+  margin: 0 auto;
+  color: $light;
+  font-family: 'Economica', sans-serif;
+}
+.picture{
+  background-image: url("./img/bg3.png");
+  background-position-y: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 8% 0;
+}
+.green-text{
+  color: $green;
+  display: inline-block;
+}
+.header{
+  padding: 20px;
+}
+.rent-button{
+  cursor: pointer;
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  border-radius: 30%;
+  background-color: transparent;
+  font-size: 25px;
+  font-family: 'Economica', sans-serif;
+  color:$light;
+  border: 2px solid $light;
+  margin: 10% 15% 0;
+  transition: .5s;
+}
+.rent-button:hover{
+  transform-origin: center;
+  background-color: $green;
+  opacity: 1;
+  border: none;
+  color:$dark;
+  border-radius: 20%;
+  transform: scale(1.1);
+
+}
+@media screen and(max-width: 1680px){
+  .rent-button{
+    margin: 10% 6% 0;
+  }
+}
+@media screen and(max-width: 1500px){
+  .picture{
+    display: block;
+    justify-content: center;
+  }
+  .rent-button{
+    margin: 20px 32% 0;
+  }
+}
+@media screen and(max-width: 800px){
+  .picture{
+    background-image: url("./img/bg-small.jpg");
+    background-size:100%;
+    background-blend-mode: darken(#000, 20);
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .header{
+    text-shadow:  3px 3px 3px black;
+  }
+}
+@media screen and(max-width: 320px){
+  .picture{
+    background:none;
+  }
+  .header{
+    text-shadow: none;
+    color: $dark;
+  }
+  .rent-button{
+    color:$dark;
+    border-color: $dark;
+  }
+}

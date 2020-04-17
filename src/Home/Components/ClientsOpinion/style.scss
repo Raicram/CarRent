@@ -1,0 +1,39 @@
+$light: #eaeaea;
+$green: #36d643;
+$dark: #595959;
+
+.customer-opinion{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  color: $dark;
+}
+.opinion{
+  display: block;
+  max-height: 320px;
+  text-align: center;
+  min-width: 300px;
+  margin: 5% auto;
+
+}
+@media screen and (max-width: 1200px) {
+  .customer-opinion{
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .customer-opinion{
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 500px){
+  .opinion{
+    margin: 5% 5%;
+  }
+}
