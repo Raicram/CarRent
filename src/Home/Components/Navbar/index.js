@@ -23,12 +23,12 @@ const Logotype = () => {
 function NavbarItems(props){
     return(
             <div className={props.switch ? 'Navbaritems' : "Navbaritems Navbaritems--active"}>
-                <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Cars</a></li>
-                    <li><a href='#'>About us</a></li>
-                    <li><a href='#'>Contact</a></li>
-                    <li><a href='#'>Log in</a></li>
+                <ul className='ul-list'>
+                    <li className='li-list'><a href='#'>Home</a></li>
+                    <li className='li-list'><a href='#'>Cars</a></li>
+                    <li className='li-list'><a href='#'>About us</a></li>
+                    <li className='li-list'><a href='#'>Contact</a></li>
+                    <li className='li-list'><a href='#'>Log in</a></li>
                 </ul>
             </div>
     )
@@ -62,7 +62,7 @@ export default function Navigation(){
     useScrollPosition(
         ({ prevPos, currPos }) => {
             const isShow = currPos.y > prevPos.y;
-            if (isShow !== hideOnScroll && currPos.y<-100) setHideOnScroll(isShow);
+            if (isShow !== hideOnScroll && currPos.y<10) setHideOnScroll(isShow);
         },
         [hideOnScroll],
         false,

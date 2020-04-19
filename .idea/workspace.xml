@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/ClientsOpinion/img/man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/ClientsOpinion/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/ClientsOpinion/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/img/bg-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/img/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/img/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/MainContent/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Navbar/Img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Navbar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Navbar/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Reasons/img/car.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Reasons/img/car1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Reasons/img/car2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Reasons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/Reasons/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/SeeCars/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Components/SeeCars/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Components/Footer/img/FB-logo-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Components/Footer/img/linkedin-icon-logo-vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Components/Footer/img/twitter-icon-square-logo-preview-400x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Components/Footer/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Components/Navbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Components/Navbar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Components/Navbar/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Components/SeeCars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Components/SeeCars/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Components/SeeCars/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Components/SeeCars/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +53,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\Footer\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent" />
-      <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\Reasons\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -117,7 +100,8 @@
       <workItem from="1586802859978" duration="6760000" />
       <workItem from="1586883091216" duration="7740000" />
       <workItem from="1586969556829" duration="4370000" />
-      <workItem from="1587143781778" duration="197000" />
+      <workItem from="1587143781778" duration="1097000" />
+      <workItem from="1587310991716" duration="8705000" />
     </task>
     <servers />
   </component>
@@ -145,22 +129,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="267" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586093577512" />
-    <state width="936" height="202" key="GridCell.Tab.0.bottom" timestamp="1586989210543">
+    <state width="1899" height="202" key="GridCell.Tab.0.bottom" timestamp="1587333814113">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="936" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586989210543" />
-    <state width="936" height="202" key="GridCell.Tab.0.center" timestamp="1586989210542">
+    <state width="1899" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587333814113" />
+    <state width="1899" height="202" key="GridCell.Tab.0.center" timestamp="1587333814112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="936" height="202" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586989210542" />
-    <state width="936" height="202" key="GridCell.Tab.0.left" timestamp="1586989210542">
+    <state width="1899" height="202" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587333814112" />
+    <state width="1899" height="202" key="GridCell.Tab.0.left" timestamp="1587333814112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="936" height="202" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586989210542" />
-    <state width="936" height="202" key="GridCell.Tab.0.right" timestamp="1586989210543">
+    <state width="1899" height="202" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587333814112" />
+    <state width="1899" height="202" key="GridCell.Tab.0.right" timestamp="1587333814113">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="936" height="202" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586989210543" />
+    <state width="1899" height="202" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587333814113" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1586893565653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
