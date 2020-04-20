@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BrowserRouter as Router , Route, Switch} from 'react-router-dom';
 import Navigation from "./Home/Components/Navbar";
-import MainContent from "./Home/Components/MainContent";
-import Reasons from './Home/Components/Reasons';
-import Opinion from "./Home/Components/ClientsOpinion";
-import SeeCars from './Home/Components/SeeCars'
-import FooterHome from "./Home/Components/Footer";
+import Home from './Home/index.js';
+import Cars from './CarsToRent/Cars/index.js';
+import Contact from './Contact/index.js';
+import AboutUs from "./AboutUs/index.js";
+import UnknownPath from './UknownPath/index.js';
 
 const Container = styled.div`
   margin: 0;
@@ -14,14 +15,18 @@ const Container = styled.div`
 
 function App() {
   return (
-      <Container className="App">
-        <Navigation/>
-        <MainContent/>
-        <Reasons/>
-        <Opinion/>
-        <SeeCars/>
-        <FooterHome/>
-      </Container>
+      <Router>
+          <Container className="App">
+                <Navigation/>
+                <Switch>
+                    <Route exact path='/' component={Home}/>
+                    <Route exact path='/cars' component={Cars}/>
+                    <Route exact path='/contact' component={Contact}/>
+                    <Route exact path='/about_us' component={AboutUs}/>
+                    <Route component={UnknownPath}/>
+                </Switch>
+          </Container>
+      </Router>
   );
 }
 

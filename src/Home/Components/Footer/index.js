@@ -28,7 +28,7 @@ export default function FooterHome () {
               <img src={twitter} alt="Twitter"/>
           </FooterSocials>
           <FooterRights>
-              © 2020 CarRent. This page is done only for learning issues.
+              © 2020 CarRent. This page is done only for learning purposes.
           </FooterRights>
       </Footer>
     );

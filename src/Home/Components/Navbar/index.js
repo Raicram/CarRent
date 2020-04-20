@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import styled from "styled-components"
+import {Link} from "react-router-dom";
 import logo from './Img/logo.png'
 import './style.scss'
 
@@ -24,11 +25,11 @@ function NavbarItems(props){
     return(
             <div className={props.switch ? 'Navbaritems' : "Navbaritems Navbaritems--active"}>
                 <ul className='ul-list'>
-                    <li className='li-list'><a href='#'>Home</a></li>
-                    <li className='li-list'><a href='#'>Cars</a></li>
-                    <li className='li-list'><a href='#'>About us</a></li>
-                    <li className='li-list'><a href='#'>Contact</a></li>
-                    <li className='li-list'><a href='#'>Log in</a></li>
+                    <li className='li-list'><Link to={'/'}>Home</Link></li>
+                    <li className='li-list'><Link to={'/cars'}>Cars</Link></li>
+                    <li className='li-list'><Link to={'/about_us'}>About us</Link></li>
+                    <li className='li-list'><Link to={'/contact'}>Contact</Link></li>
+                    <li className='li-list'><Link to={'/cars'}>Log in</Link></li>
                 </ul>
             </div>
     )
