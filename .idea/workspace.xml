@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UknownPath/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UknownPath/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarsToRent/Cars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/Cars/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,9 @@
       <workItem from="1587143781778" duration="1097000" />
       <workItem from="1587310991716" duration="8904000" />
       <workItem from="1587372094487" duration="14808000" />
-      <workItem from="1587458381048" duration="347000" />
+      <workItem from="1587458381048" duration="5411000" />
+      <workItem from="1587571960390" duration="1206000" />
+      <workItem from="1587661250321" duration="839000" />
     </task>
     <servers />
   </component>
@@ -122,22 +128,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="267" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586093577512" />
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom" timestamp="1587458690405">
+    <state width="1899" height="198" key="GridCell.Tab.0.bottom" timestamp="1587507309333">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587458690405" />
-    <state width="1899" height="198" key="GridCell.Tab.0.center" timestamp="1587458690404">
+    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
+    <state width="1899" height="198" key="GridCell.Tab.0.center" timestamp="1587507309333">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587458690404" />
-    <state width="1899" height="198" key="GridCell.Tab.0.left" timestamp="1587458690404">
+    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
+    <state width="1899" height="198" key="GridCell.Tab.0.left" timestamp="1587507309333">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587458690404" />
-    <state width="1899" height="198" key="GridCell.Tab.0.right" timestamp="1587458690405">
+    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
+    <state width="1899" height="198" key="GridCell.Tab.0.right" timestamp="1587507309333">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587458690405" />
+    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1586893565653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
