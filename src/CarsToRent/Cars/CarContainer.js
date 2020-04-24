@@ -1,13 +1,18 @@
 import React from "react";
 import {connect} from 'react-redux';
 
-const CarContainer = ({carReducer}) =>
+
+const CarContainer = ({store}) => {
+    console.log(store);
+return(
     <ul>
-        {carReducer.list.map(car => <li>{car}</li>)}
+        {store.list.map(car => <li>{car}</li>)}
     </ul>
+)};
 
 const mapStateToProps = (state) =>({
-    carReducer: state.carReducer
-})
+    store: state
+});
 
-export default connect(mapStateToProps, {})(CarContainer)
+
+export default connect(mapStateToProps)(CarContainer)
