@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+>>>>>>> redux-stuff
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +102,8 @@
       <workItem from="1587372094487" duration="14808000" />
       <workItem from="1587458381048" duration="5411000" />
       <workItem from="1587571960390" duration="1206000" />
-      <workItem from="1587661250321" duration="1117000" />
+      <workItem from="1587661250321" duration="2459000" />
+      <workItem from="1587723697073" duration="10632000" />
     </task>
     <servers />
   </component>
@@ -101,10 +111,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#ESLint" timestamp="1586284548735">
+    <state x="552" y="183" key="#ESLint" timestamp="1587756309969">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="183" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1586284548734" />
+    <state x="552" y="183" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1587756309969" />
     <state x="734" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586804998073">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -121,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="267" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586093577512" />
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom" timestamp="1587507309333">
+    <state width="938" height="198" key="GridCell.Tab.0.bottom" timestamp="1587745066288">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
-    <state width="1899" height="198" key="GridCell.Tab.0.center" timestamp="1587507309333">
+    <state width="938" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587745066288" />
+    <state width="938" height="198" key="GridCell.Tab.0.center" timestamp="1587745066288">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
-    <state width="1899" height="198" key="GridCell.Tab.0.left" timestamp="1587507309333">
+    <state width="938" height="198" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587745066288" />
+    <state width="938" height="198" key="GridCell.Tab.0.left" timestamp="1587745066287">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
-    <state width="1899" height="198" key="GridCell.Tab.0.right" timestamp="1587507309333">
+    <state width="938" height="198" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587745066287" />
+    <state width="938" height="198" key="GridCell.Tab.0.right" timestamp="1587745066288">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587507309333" />
+    <state width="938" height="198" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587745066288" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1586893565653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
