@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CarsToRent/duck/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarsToRent/duck/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarsToRent/duck/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarsToRent/duck/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarsToRent/Cars/CarContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarsToRent/Cars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/Cars/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,7 @@
       <workItem from="1587458381048" duration="5411000" />
       <workItem from="1587571960390" duration="1206000" />
       <workItem from="1587661250321" duration="2459000" />
-      <workItem from="1587723697073" duration="4946000" />
+      <workItem from="1587723697073" duration="7065000" />
     </task>
     <servers />
   </component>

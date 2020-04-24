@@ -1,15 +1,11 @@
 import React from 'react';
-
-import {carTypes} from "../duck";
-import store from "../../store";
-
-store.dispatch(carTypes.add('viper'));
+import CarContainer from "./CarContainer";
 
 
 export default function Cars() {
     return(
         <div>
-            Cars
+            <CarContainer/>
         </div>
     )
 }
