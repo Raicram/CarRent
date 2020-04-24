@@ -41,15 +41,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\Footer\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
