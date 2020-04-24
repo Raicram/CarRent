@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarsToRent/Cars/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/Cars/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarsToRent/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/duck/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarsToRent/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/duck/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,10 +106,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#ESLint" timestamp="1586284548735">
+    <state x="552" y="183" key="#ESLint" timestamp="1587756309969">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="183" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1586284548734" />
+    <state x="552" y="183" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1587756309969" />
     <state x="734" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586804998073">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
