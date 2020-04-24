@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const AllCars = styled.div`
     width:100%;
     height:70vh;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 15% auto 0;
+    margin: 5% auto 0;
     position: absolute;
-    text-align: center;;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+    font-size:25px;
     
 `;
