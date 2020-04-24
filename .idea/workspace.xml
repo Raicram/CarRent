@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a1a067-8486-43ca-a5f0-f095954bbb5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarsToRent/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/duck/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarsToRent/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsToRent/duck/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +46,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\Footer\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\ClientsOpinion" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent\img" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\src\Home\Components\MainContent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
