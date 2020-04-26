@@ -3,14 +3,15 @@ import {connect} from 'react-redux';
 import {Car,Brand,RentButton} from './styles.js';
 
 
-const CarContainer = ({store}) => {
-    console.log(store);
+const CarContainer = ({cars,desc}) => {
+    console.log(cars);
+    console.log(desc);
 return(
     <div>
-        {store.list.map(car =>
+        {cars.list.map((car,index) =>
             <Car>
                 Name:<Brand>{car}</Brand>
-                Description: Lorem
+                Description: <div>{desc.list.length>index ? desc.list[index]:"No description for this car"}</div>
                 <RentButton>Rent!</RentButton>
             </Car>
         )}
@@ -18,7 +19,8 @@ return(
 )};
 
 const mapStateToProps = (state) =>({
-    store: state
+    cars: state.cars,
+    desc: state.desc
 });
 
 
