@@ -79,32 +79,38 @@ function Text(){
         tl2.fromTo(element2,{y:'-200'},{y: 0,duration:1.1 ,autoAlpha: 1});
         tl3.fromTo(element3,{y:'-200'},{y: 0,duration:1.1 ,autoAlpha: 1});
 
-        const scrollObserver = new ScrollObserver({
+        const scrollScene = new ScrollScene({
                 triggerElement,
                 gsap: {
                     timeline: tl,
+                    reverse: false,
                 },
-                whenVisible: '60%',
+            offset: '10px',
+            triggerHook: 0.5,
         });
-        const scrollObserver2 = new ScrollObserver({
+        const scrollScene2 = new ScrollScene({
             triggerElement,
             gsap: {
                 timeline: tl2,
+                reverse: false,
             },
-            whenVisible: '70%',
+            offset: '30px',
+            triggerHook: 0.5,
         });
-        const scrollObserver3 = new ScrollObserver({
+        const scrollScene3 = new ScrollScene({
             triggerElement,
             gsap: {
                 timeline: tl3,
+                reverse: false,
             },
-            whenVisible: '80%',
+            offset: '80px',
+            triggerHook: 0.5,
         });
 
         return () => {
-            scrollObserver.destroy();
-            scrollObserver2.destroy();
-            scrollObserver3.destroy()
+            scrollScene.destroy();
+            scrollScene2.destroy();
+            scrollScene3.destroy();
         }
 
     },[]);

@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from 'react-redux';
-import {Car,Brand,RentButton} from './styles.js';
+import {Car,Brand,RentButton,Info} from './styles.js';
 
 
 const CarContainer = ({cars,desc}) => {
@@ -10,8 +10,8 @@ return(
     <div>
         {cars.list.map((car,index) =>
             <Car>
-                Name:<Brand>{car}</Brand>
-                Description: <div>{desc.list.length>index ? desc.list[index]:"No description for this car"}</div>
+                <Info>Name:<Brand>{car}</Brand>
+                    Description: <div>{desc.list.length>index ? desc.list[index]:"No description for this car"}</div></Info>
                 <RentButton>Rent!</RentButton>
             </Car>
         )}

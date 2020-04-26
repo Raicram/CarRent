@@ -18,6 +18,8 @@ export const Car = styled.div`
     background-color: ${lightgrey};
     padding: 2%;
     margin:10px auto;
+    align-items: center;
+    justify-content: space-between;
     -moz-box-shadow:    1px 3px 5px 5px #ccc;
     -webkit-box-shadow: 1px 3px 5px 5px #ccc;
     box-shadow:         1px 3px 5px 5px #ccc;
@@ -29,6 +31,9 @@ export const Car = styled.div`
     }
     
 `;
+export const Info = styled.div`
+justify-content: flex-start
+`;
 export const Brand = styled.div`
     font-weight: bold;
 `;
@@ -38,7 +43,6 @@ export const RentButton = styled.button`
     height:50px;
     background-color: ${almostblack};
     color: ${lightgrey};
-    position: relative;
     border: none;
     transition: all .2s ease-in;
     
