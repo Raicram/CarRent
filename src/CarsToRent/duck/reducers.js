@@ -4,7 +4,7 @@ import types from './types'
 const INITIAL_STATE = {
     listName: 'Brands',
     list: [
-        'Mercedes-Benz','BMW','Toyota','Ferrari','Honda','Subaru','vW'
+        'Mercedes-AMG C63s','BMW M4cs','Toyota Supra mk5','Ferrari 488 speciale','Honda NSX','Subaru WRX STI','Lamborghini Huracan Performante'
     ]
 };
 

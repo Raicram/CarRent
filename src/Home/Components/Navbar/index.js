@@ -29,7 +29,7 @@ function NavbarItems(props){
                     <li className='li-list'><Link to={'/cars'}>Cars</Link></li>
                     <li className='li-list'><Link to={'/about_us'}>About us</Link></li>
                     <li className='li-list'><Link to={'/contact'}>Contact</Link></li>
-                    <li className='li-list'><Link to={'/cars'}>Log in</Link></li>
+                    <li className='li-list'><Link to={'/log_in'}>Log in</Link></li>
                 </ul>
             </div>
     )
