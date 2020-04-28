@@ -3,6 +3,7 @@ import {Form,Field} from 'react-final-form';
 import actions_b from "../../duck/actions";
 import actions_d from "../../Description/duck/actions";
 import {connect} from 'react-redux';
+import {AddCar,Input,Span,Button} from "./style.js";
 
 
 const AddForm = props =>{
@@ -15,6 +16,7 @@ const AddForm = props =>{
     };
 
     return(
+        <AddCar>
         <Form
             onSubmit={onSubmit}
             validate={values => {
@@ -33,8 +35,8 @@ const AddForm = props =>{
                         {({ input, meta }) => (
                             <div>
                                 <label>Brand</label>
-                                <input {...input} type="text" placeholder="Brand e.g. BMW" />
-                                {meta.error && meta.touched && <span>{meta.error}</span>}
+                                <Input {...input} type="text" placeholder="Brand e.g. BMW" />
+                                {meta.error && meta.touched && <Span>{meta.error}</Span>}
                             </div>
                         )}
                     </Field>
@@ -42,19 +44,20 @@ const AddForm = props =>{
                         {({ input, meta }) => (
                             <div>
                                 <label>Description</label>
-                                <input {...input} type="text" placeholder="Description" />
-                                {meta.error && meta.touched && <span>{meta.error}</span>}
+                                <Input {...input} type="text" placeholder="Description" />
+                                {meta.error && meta.touched && <Span>{meta.error}</Span>}
                             </div>
                         )}
                     </Field>
                     <div className="buttons">
-                        <button type="submit" disabled={submitting}>
+                        <Button type="submit" disabled={submitting}>
                             Submit
-                        </button>
+                        </Button>
                     </div>
                 </form>
             )}
         />
+        </AddCar>
     )};
 
 const mapDispatchToProps = dispatch =>({
