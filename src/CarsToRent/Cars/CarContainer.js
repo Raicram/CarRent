@@ -4,8 +4,6 @@ import {Car,Brand,RentButton,Info} from './styles.js';
 
 
 const CarContainer = ({cars,desc}) => {
-    console.log(cars);
-    console.log(desc);
 return(
     <div>
         {cars.list.map((car,index) =>
