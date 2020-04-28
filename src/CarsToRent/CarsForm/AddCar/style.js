@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const lightgrey = "#e6e6e6";
 const green = "#36d643";
 const almostblack = "#383838";
@@ -10,12 +11,13 @@ export const AddCar = styled.div`
     height:300px;
     justify-content: center;
     align-items: center;
-    margin: 10% auto;
+    border: solid 1px ${almostblack};
+    border-radius: 5px;
+    margin: 5% auto;
     
         @media (max-width: 500px){
             width:100%
         }
-
 `;
 
 export const Input = styled.input`

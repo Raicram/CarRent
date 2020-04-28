@@ -12,6 +12,11 @@ export const AllCars = styled.div`
     font-size:25px;
     
 `;
+export const  AddDiv = styled.div`
+    display:flex;
+    justify-content: center;
+    margin: 5% auto;
+`;
 export const Car = styled.div`
     width:70%;
     min-height:300px;
