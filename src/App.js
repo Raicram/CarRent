@@ -8,6 +8,7 @@ import Contact from './Contact/index.js';
 import AboutUs from "./AboutUs/index.js";
 import UnknownPath from './UknownPath/index.js';
 import LogIn from "./LogIn";
+import RentForm from "./CarsToRent/CarsForm/Rent";
 
 const Container = styled.div`
   margin: 0;
@@ -26,6 +27,7 @@ function App() {
                     <Route exact path='/contact' component={Contact}/>
                     <Route exact path='/about_us' component={AboutUs}/>
                     <Route exact path='/log_in' component={LogIn}/>
+                    <Route exact path='/rent/:id' component={RentForm}/>
                     <Route component={UnknownPath}/>
                 </Switch>
           </Container>
