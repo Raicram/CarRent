@@ -4,7 +4,6 @@ import actions_b from '../../duck/actions'
 import actions_d from '../../Description/duck/actions'
 import {connect} from 'react-redux';
 
-
 const DelButton = props =>{
 
     const Delete = props =>{

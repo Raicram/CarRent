@@ -6,6 +6,7 @@ import {connect} from 'react-redux';
 import {AddCar,Input,Span,Button} from "./style.js";
 
 
+
 const AddForm = props =>{
     const onSubmit = values =>{
         props.add_brand(values.brand);

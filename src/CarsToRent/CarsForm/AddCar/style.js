@@ -21,9 +21,18 @@ export const AddCar = styled.div`
 `;
 
 export const Input = styled.input`
-    border-radius: 5px;
-    width:100%;
-    height:40px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    margin: 5px;
+    width:300px;
+    height:60px;
+    font-size:1.3rem;
+    padding:15px;
+    
+    &:focus{
+        outline:none;
+    }
 `;
 
 export const Span = styled.span`

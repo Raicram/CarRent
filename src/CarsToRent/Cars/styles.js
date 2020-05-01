@@ -14,7 +14,8 @@ export const AllCars = styled.div`
 `;
 export const  AddDiv = styled.div`
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items:center;
     margin: 5% auto;
 `;
 export const Car = styled.div`
