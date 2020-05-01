@@ -1,6 +1,8 @@
 import React from 'react';
 import {Field,Form} from 'react-final-form';
-import {FormDiv} from './styles';
+import {FormDiv,FormInputs,Input,EachInput,Label} from './styles';
+import {Span} from '../AddCar/style';
+import {RentButton} from "../../Cars/styles";
 
 const RentForm = props =>{
     console.log(props.match.params.id);
@@ -12,7 +14,7 @@ const RentForm = props =>{
     return(
         <FormDiv>
             <h1>Your car: {props.match.params.id}</h1>
-            <div>
+            <FormInputs>
                 <Form
                     onSubmit={onSubmit}
                     validate={values => {
@@ -29,62 +31,67 @@ const RentForm = props =>{
                         if (!values.seconddate) {
                             errors.seconddate = 'Required'
                         }
+                        if (!values.phone) {
+                            errors.phone = 'Required'
+                        }
                         return errors
                     }}
                     render={({ handleSubmit, form, submitting, pristine, values }) => (
                         <form onSubmit={handleSubmit}>
                             <Field name="name">
                                 {({ input, meta }) => (
-                                    <div>
-                                        <label>Name</label>
-                                        <input {...input} type="text" placeholder="Name" />
-                                        {meta.error && meta.touched && <span>{meta.error}</span>}
-                                    </div>
+                                    <EachInput>
+                                        <Label>Name</Label>
+                                        <Input {...input} type="text" placeholder="Name" />
+                                        {meta.error && meta.touched && <Span>{meta.error}</Span>}
+                                    </EachInput>
                                 )}
                             </Field>
                             <Field name="surname">
                                 {({ input, meta }) => (
-                                    <div>
-                                        <label>Surname</label>
-                                        <input {...input} type="text" placeholder="Password" />
-                                        {meta.error && meta.touched && <span>{meta.error}</span>}
-                                    </div>
+                                    <EachInput>
+                                        <Label>Surname</Label>
+                                        <Input {...input} type="text" placeholder="Surname" />
+                                        {meta.error && meta.touched && <Span>{meta.error}</Span>}
+                                    </EachInput>
                                 )}
                             </Field>
                             <Field name="firstdate">
                                 {({ input, meta }) => (
-                                    <div>
-                                        <label>Date of rent</label>
-                                        <input {...input} type="text" placeholder="Confirm" />
-                                        {meta.error && meta.touched && <span>{meta.error}</span>}
-                                    </div>
+                                    <EachInput>
+                                        <Label>Date of rent</Label>
+                                        <Input {...input} type="text" placeholder="30-04-2020" />
+                                        {meta.error && meta.touched && <Span>{meta.error}</Span>}
+                                    </EachInput>
                                 )}
                             </Field>
                             <Field name="seconddate">
+                            {({ input, meta }) => (
+                                <EachInput>
+                                    <Label>Date of give back</Label>
+                                    <Input {...input} type="text" placeholder="31-04-2020" />
+                                    {meta.error && meta.touched && <Span>{meta.error}</Span>}
+                                </EachInput>
+                            )}
+                            </Field>
+                            <Field name="phone">
                                 {({ input, meta }) => (
-                                    <div>
-                                        <label>Date of give back</label>
-                                        <input {...input} type="password" placeholder="Confirm" />
-                                        {meta.error && meta.touched && <span>{meta.error}</span>}
-                                    </div>
+                                    <EachInput>
+                                        <Label>Phone number</Label>
+                                        <Input {...input} type="tel" placeholder="354 276 984" />
+                                        {meta.error && meta.touched && <Span>{meta.error}</Span>}
+                                    </EachInput>
                                 )}
                             </Field>
                             <div className="buttons">
-                                <button type="submit" disabled={submitting}>
-                                    Submit
-                                </button>
-                                <button
-                                    type="button"
-                                    onClick={form.reset}
-                                    disabled={submitting || pristine}
-                                >
-                                    Reset
-                                </button>
+                                <RentButton type="submit" disabled={submitting}>
+                                    Rent
+                                </RentButton>
                             </div>
                         </form>
                     )}
                 />
-            </div>
+            </FormInputs>
         </FormDiv>
 )};
 
