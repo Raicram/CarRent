@@ -63,7 +63,7 @@ export default function Navigation(){
     useScrollPosition(
         ({ prevPos, currPos }) => {
             const isShow = currPos.y > prevPos.y;
-            if (isShow !== hideOnScroll && currPos.y<10) setHideOnScroll(isShow);
+            if (isShow !== hideOnScroll && currPos.y<400) setHideOnScroll(isShow);
         },
         [hideOnScroll],
         false,

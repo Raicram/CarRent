@@ -9,6 +9,8 @@ export const AddCar = styled.div`
     display:flex;
     width:500px;
     height:300px;
+    flex-direction:column;
+    align-items:center;
     justify-content: center;
     align-items: center;
     border: solid 1px ${almostblack};
@@ -16,7 +18,10 @@ export const AddCar = styled.div`
     margin: 5% auto;
     
         @media (max-width: 500px){
-            width:100%
+            width:90%;
+            height:350px;
+            padding:2%;
+            
         }
 `;
 

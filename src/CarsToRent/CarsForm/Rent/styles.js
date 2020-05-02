@@ -11,6 +11,12 @@ export const FormDiv = styled.div`
     display:flex;
     flex-direction: column;
     align-items:center;
+    
+    @media(max-width: 600px){
+        margin: 15% auto 5%;
+        
+        h1{ font-size:30px;}
+    }
 `;
 export const FormInputs = styled.div`
     display: grid;
@@ -20,7 +26,7 @@ export const Input = styled.input`
     border-bottom: 1px solid black;
     background-color: transparent;
     margin: 5px;
-    width:500px;
+    width:600px;
     height:60px;
     font-size:1.3rem;
     padding:15px;
@@ -28,6 +34,9 @@ export const Input = styled.input`
     &:focus{
         outline:none;
     }
+     @media(max-width: 600px){
+        width:300px;
+     }
 `;
 export const EachInput = styled.div`
     display:flex;

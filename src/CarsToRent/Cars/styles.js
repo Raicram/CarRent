@@ -11,6 +11,10 @@ export const AllCars = styled.div`
     font-family: 'Economica', sans-serif;
     font-size:25px;
     
+    @media(max-width:500px){
+        margin:20% auto;
+    }
+    
 `;
 export const  AddDiv = styled.div`
     display:flex;
@@ -34,6 +38,9 @@ export const Car = styled.div`
     
     &:hover{
        background-color: ${darkgrey};
+    }
+    @media(max-width:500px){
+        width:90%;
     }
     
 `;
