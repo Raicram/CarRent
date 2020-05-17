@@ -9,7 +9,7 @@ export default function SeeCars() {
                 Wanna see our cars?
             </Text>
             <Button>
-                Button
+                Rent
             </Button>
         </Container>
     )
