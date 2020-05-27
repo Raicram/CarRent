@@ -4,9 +4,9 @@ const green = `#36d643`;
 
 export const Container = styled.div`
     width:100%;
-    height:300px;
+    height:100px;
     margin: 0 auto;
-    padding: 15% 30%;
+    padding: 10% 30%;
     display:flex;
     justify-content: space-between;
 

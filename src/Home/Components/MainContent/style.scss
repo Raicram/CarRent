@@ -19,7 +19,7 @@ $dark: #595959;
   display: flex;
   justify-content: space-between;
   font-size: 24px;
-  padding: 8% 0;
+  padding: 15% 20% 15% 0;
 }
 .green-text{
   color: $green;
@@ -39,7 +39,7 @@ $dark: #595959;
   font-family: 'Economica', sans-serif;
   color:$light;
   border: 2px solid $light;
-  margin: 10% 15% 0;
+  margin: 10% 0 ;
   transition: .5s;
 }
 .rent-button:hover{

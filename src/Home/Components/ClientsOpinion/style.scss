@@ -15,10 +15,16 @@ $dark: #595959;
 }
 .opinion{
   display: block;
-  max-height: 320px;
+  max-height: 520px;
   text-align: center;
-  min-width: 300px;
-  margin: 5% auto;
+  min-width: 250px;
+  margin: 2% auto;
+  padding: 50px;
+  border: 3px solid $green;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 160px -49px rgba(115,115,115,1);
+  -moz-box-shadow: 0px 0px 160px -49px rgba(115,115,115,1);
+  box-shadow: 0px 0px 160px -49px rgba(115,115,115,1);
 
 }
 @media screen and (max-width: 1200px) {
