@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 const lightgrey = "#e6e6e6";
 const darkgrey = "#bababa";
 const green = "#36d643";
@@ -10,7 +11,7 @@ export const AllCars = styled.div`
     position: absolute;
     font-family: 'Economica', sans-serif;
     font-size:25px;
-    
+    background-color: transparent;
     @media(max-width:500px){
         margin:20% auto;
     }

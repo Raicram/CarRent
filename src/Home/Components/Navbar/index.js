@@ -69,7 +69,7 @@ export default function Navigation(){
         [hideOnScroll],
         false,
         false,
-        100
+        50
     );
 
 

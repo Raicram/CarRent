@@ -10,10 +10,11 @@ import UnknownPath from './UknownPath/index.js';
 import LogIn from "./LogIn";
 import RentForm from "./CarsToRent/CarsForm/Rent";
 import Register from "./Register";
+import bg2 from './Home/Components/Navbar/Img/bg2.jpg';
 
 const Container = styled.div`
   margin: 0;
-  background-color: #eaeaea;
+  background-image: url(${bg2});
   justify-content: center;
 `;
 
